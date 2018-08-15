@@ -96,12 +96,19 @@ or
 # FROM REPO
 
 sudo vi /etc/yum.repos.d/virtualbox.repo
+
 [virtualbox]
+
 name=Oracle Linux / RHEL / CentOS-$releasever / $basearch - VirtualBox
+
 baseurl=http://download.virtualbox.org/virtualbox/rpm/el/$releasever/$basearch
+
 enabled=1
+
 gpgcheck=1
+
 repo_gpgcheck=1
+
 gpgkey=https://www.virtualbox.org/download/oracle_vbox.asc
 
 
@@ -119,15 +126,25 @@ copy gns3.desktop to /usr/share/applications
 
 
 cat /usr/share/applications/gns3.desktop
+
 [Desktop Entry]
+
 Name=GNS3
+
 Comment=Graphical Network Simulator
+
 Exec=gns3
+
 Terminal=false
+
 Type=Application
+
 StartupNotify=true
+
 Icon=/home/jherrera/GNS3/symbols/gns3.ico
+
 Categories=Development;
+
 MimeType=application/x-gns3;
 
 
