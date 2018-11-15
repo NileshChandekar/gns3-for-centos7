@@ -25,32 +25,26 @@ Installation steps
 # cd script
 ```
 
-echo "===================================================="
 echo "#############   GNS-FOR-CENTOS-7   #################"
-echo "===================================================="
 
 ~~~
 ./install_gns_centos_7.sh
 ~~~
 
-echo "===================================================="
 echo "#############   GUI-FOR-CENTOS-7   #################"
-echo "===================================================="
 
 ~~~
 ./install_gui_centos_7.sh
 ~~~
 
-echo "===================================================="
 echo "#############   VNC-FOR-CENTOS-7   #################"
-echo "===================================================="
 
 This will only install packages. 
 ~~~
 ./install_vnc_centos_7.sh
 ~~~
 
-# Create geometry , Enter any password 6 character long. 
+Create geometry , Enter any password 6 character long. 
 
 ~~~
 sudo /usr/bin/vncserver :1 -geometry 1800x1200 -depth 24       
