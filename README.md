@@ -25,21 +25,22 @@ Installation steps
 # cd script
 ```
 
-echo "#############   GNS-FOR-CENTOS-7   #################"
+"#############   GNS-FOR-CENTOS-7   #################"
 
 ~~~
 ./install_gns_centos_7.sh
 ~~~
 
-echo "#############   GUI-FOR-CENTOS-7   #################"
+"#############   GUI-FOR-CENTOS-7   #################"
 
 ~~~
 ./install_gui_centos_7.sh
 ~~~
 
-echo "#############   VNC-FOR-CENTOS-7   #################"
+"#############   VNC-FOR-CENTOS-7   #################"
 
 This will only install packages. 
+
 ~~~
 ./install_vnc_centos_7.sh
 ~~~
