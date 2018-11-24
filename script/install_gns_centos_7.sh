@@ -136,32 +136,6 @@ sudo yum install wireshark-gnome -y
 sleep 5
 clear
 
-echo "=========================================================="
-echo "#############   CREATE VIRTUALBOX REPO   #################"
-echo "=========================================================="
-
-yum -y install wget
-cd /tmp
-wget https://www.virtualbox.org/download/oracle_vbox.asc
-rpm --import oracle_vbox.asc
-wget http://download.virtualbox.org/virtualbox/rpm/el/virtualbox.repo -O /etc/yum.repos.d/virtualbox.repo
-
-
-sleep 5
-clear
-
-echo "======================================================="
-echo "#############   INSTALL VIRTUALBOX    #################"
-echo "======================================================="
-
-sudo yum install kernel-headers kernel-devel -y
-sudo yum install VirtualBox-5.2 -y 
-sudo systemctl enable vboxdrv
-
-
-
-sleep 5
-clear
 
 echo "================================================"
 echo "#############   IOU SUPPORT    #################"
